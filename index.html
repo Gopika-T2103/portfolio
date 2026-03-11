@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopika T | Software DeveloperPortfolio</title>
+
+     <!-- SEO Description -->
+    <meta name="description" content="Portfolio of Gopika T - Emerging Software Engineer skilled in HTML, CSS, JavaScript, Python, Django and MySQL. Showcasing projects like FarmDirect, Asset Management System and Online Voting System.">
+    
+    <!-- Author -->
+    <meta name="author" content="Gopika T">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+
+    <!-- Open Graph (LinkedIn / Social Media Preview) -->
+    <meta property="og:title" content="Gopika T | Software Developer Portfolio">
+    <meta property="og:description" content="Emerging Software Engineer passionate about building impactful web applications. View my projects and skills.">
+    <meta property="og:image" content="images/photograph.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name.png" alt="not found" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portifolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="bx bx-x " onclick="closemenu()"></i>
+                </ul>
+                <i class="bx bx-menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" id="home">
+                <h1>Hi,I'm <span>Gopika</span></h1>
+                <p>Emerging software engineer</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------- About--------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/photograph.jpg" alt="not found">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>B.Tech graduate eager to apply technical expertise and contribute 
+                    to impactful, innovative projects. Passionate
+                    about leveraging skills to drive meaningful advancements in technology 
+                    and deliver exceptional results.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Web development</li> 
+                            <li><span>JavaScript</span><br>Interactive user interface</li>
+                            <li><span>Python</span><br>For programming</li>
+                            <li><span>Django</span><br>Web framework</li>
+                            <li><span>mySQL</span><br>Database management</span></li>
+                            <li><span>Git</span><br>Version control</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BTech</span><br>APJ Abdul Kalam Technological University 2021-2025 CGPA:7.51</li> 
+                            <li><span>12th</span><br>Directorate of Higher Secondary Education 2019-2021 percentage:94.75%</li>
+                            <li><span>10th</span><br>Kerala Board Of Public Examination 2018-2019 percentage:87%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------- projects ------------------------>
+   <div id="portifolio">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/work-1.png" alt="not found">
+                <div class="layer">
+                    <h3>Farm Direct</h3>
+                    <p>A web application for connecting farmers directly with consumers, facilitating seamless transactions and promoting local agriculture.</p>
+                    <a href="https://github.com/Gopika-T2103/FarmDirect"><i class='bx bx-link'></i></a>
+                </div>
+            </div> 
+            <div class="project">
+                <img src="images/work-2.png" alt="not found">
+                <div class="layer">
+                    <h3>Asset Management</h3>
+                    <p>A web application for managing company assets, ensuring efficient utilization and maintenance.</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div> 
+            <div class="project">
+                <img src="images/work-3.png" alt="not found">
+                <div class="layer">
+                    <h3>Online Voting System</h3>
+                    <p>A secure and efficient online voting platform to facilitate democratic processes and ensure transparent results.</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-----------------contact------------------  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-center">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>Feel free to reach out to me for any inquiries.I'm open to connecting and discussing potential opportunities.</p>
+                <p><i class='bx bxs-paper-plane'></i> gopikat003@gmail.com</p>
+                <p><i class='bx bx-phone' ></i>+91 8590354934</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gopika-t2103/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Gopika-T2103"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="images/Gopika_T .pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p><i class="bx bx-copyright"></i> 2026 Gopika T. All rights reserved.</p>
+</div>
+
+
+<!-- about section skills and education -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link"); //remove the active link class from all the tablinks
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab"); //remove the active tab class from all the tabcontents
+            }
+            event.currentTarget.classList.add("active-link"); //add the active link class to the current tablink or give underline to the current tablink.
+            document.getElementById(tabname).classList.add("active-tab"); //add the active tab class to the current tabcontent or show the current tabcontent
+        }
+    </script>
+
+<!-- Hamburger menu -->
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+            function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
